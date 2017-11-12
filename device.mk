@@ -46,7 +46,8 @@ PRODUCT_PACKAGES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    init.mtk.rc
+    init.mtk.rc \
+    init.safailnet.rc
 
 # Input
 PRODUCT_COPY_FILES += \
