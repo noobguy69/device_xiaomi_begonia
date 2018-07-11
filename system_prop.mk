@@ -30,6 +30,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.config.vc_call_vol_steps=7 \
     ro.config.media_vol_steps=25
 
+# Camera
+PRODUCT_PROPERTY_OVERRIDES += \
+    camera.disable_zsl_mode=true
+
 # Display
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.opengles.version=196610 \
