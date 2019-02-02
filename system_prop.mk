@@ -48,6 +48,12 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.sys.mcd_config_file=/system/etc/mcd_default.conf \
     persist.sys.mdlog_dumpback=2
 
+# IMS
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.dbg.volte_avail_ovr=1 \
+    persist.dbg.vt_avail_ovr=1  \
+    persist.dbg.wfc_avail_ovr=1
+
 # Memory optimizations
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.sys.fw.bservice_enable=true \
