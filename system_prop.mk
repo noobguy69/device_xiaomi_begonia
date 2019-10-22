@@ -52,7 +52,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.volte_avail_ovr=1 \
     persist.dbg.vt_avail_ovr=1  \
-    persist.dbg.wfc_avail_ovr=1
+    persist.dbg.wfc_avail_ovr=1 \
+    persist.sys.fflag.override.settings_network_and_internet_v2=true
 
 # Memory optimizations
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
