@@ -110,6 +110,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.sys.usb.bicr=no \
     ro.sys.usb.charging.only=yes
 
+# WFD
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.hwc.enable_vds=1
+
 # WLAN
 PRODUCT_PRODUCT_PROPERTIES += \
     wifi.interface=wlan0 \
