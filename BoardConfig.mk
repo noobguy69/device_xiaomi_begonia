@@ -47,6 +47,9 @@ ifeq ($(HOST_OS),linux)
   endif
 endif
 
+# Enable stats logging in LMKD
+TARGET_LMKD_STATS_LOG := true
+
 # Platform
 TARGET_BOARD_PLATFORM := mt6785
 TARGET_BOARD_PLATFORM_GPU := mali-g76mc4

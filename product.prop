@@ -59,6 +59,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.gralloc.enable_fb_ubwc=1 \
     debug.sf.latch_unsignaled=1
 
+# LMKD
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.config.low_ram=false \
+    ro.lmk.kill_heaviest_task=true \
+    ro.lmk.kill_timeout_ms=100 \
+    ro.lmk.use_minfree_levels=true \
+    ro.lmk.log_stats=true
+
 # MCD
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.mcd_config_file=/system/etc/mcd_default.conf \
