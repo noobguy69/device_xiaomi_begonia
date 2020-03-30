@@ -14,5 +14,17 @@
    "repository": "vendor_xiaomi",
    "target_path": "vendor/xiaomi",
    "branch": "ten"
+ },
+ {
+   "repository": "PixelExperience/vendor_mediatek_hardware_telephony-ext",
+   "target_path": "vendor/mediatek/hardware/telephony-ext",
+   "branch": "ten",
+   "remote": "github"
+ },
+ {
+   "repository": "PixelExperience/vendor_mediatek_hardware_interfaces",
+   "target_path": "vendor/mediatek/hardware/interfaces",
+   "branch": "ten",
+   "remote": "github"
  }
 ]

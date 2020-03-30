@@ -10,6 +10,9 @@ DEVICE_PATH := device/xiaomi/begonia
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
 
+# Overlay from mtk-telephony-ext
+include vendor/mediatek/hardware/telephony-ext/overlay.mk
+
 # Properties
 -include $(DEVICE_PATH)/system_prop.mk
 
@@ -60,6 +63,14 @@ PRODUCT_PACKAGES += \
     NfcNci \
     Tag \
     com.android.nfc_extras
+
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext \
+    mtk-telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
 
 # Wallpapers
 PRODUCT_PACKAGES += \
