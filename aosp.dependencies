@@ -1,0 +1,18 @@
+[
+ {
+   "repository": "packages_apps_PixelLiveWallpaper",
+   "target_path": "packages/apps/PixelLiveWallpaper",
+   "branch": "ten",
+   "remote": "pixel-gitlab"
+ },
+ {
+   "repository": "kernel_xiaomi_begonia",
+   "target_path": "kernel/xiaomi/begonia",
+   "branch": "ten"
+ },
+ {
+   "repository": "vendor_xiaomi",
+   "target_path": "vendor/xiaomi",
+   "branch": "ten"
+ }
+]

@@ -1,10 +1,10 @@
 #
-# Copyright (C) 2019 The Potato Open Sauce Project
+# Copyright (C) 2020 The PixelExperience Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/redmi/begonia
+DEVICE_PATH := device/xiaomi/begonia
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -61,9 +61,9 @@ PRODUCT_PACKAGES += \
     Tag \
     com.android.nfc_extras
 
-# Trust
+# Wallpapers
 PRODUCT_PACKAGES += \
-    lineage.trust@1.0-service
+    PixelLiveWallpaperPrebuilt
 
 # Inherit vendor
-$(call inherit-product, vendor/redmi/begonia/begonia-vendor.mk)
+$(call inherit-product, vendor/xiaomi/begonia/begonia-vendor.mk)
