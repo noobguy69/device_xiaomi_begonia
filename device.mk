@@ -36,7 +36,8 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
-    libvulkan
+    libvulkan \
+    libRSDriver_mtk
 
 # HIDL
 PRODUCT_PACKAGES += \
