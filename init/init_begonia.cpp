@@ -36,21 +36,21 @@ void property_override(char const prop[], char const value[])
 }
 
 void load_begoniaglobal() {
-        property_override("ro.build.fingerprint", "google/coral/coral:10/QQ2A.200405.005/6254899:user/release-keys");
+        property_override("ro.build.fingerprint", "google/flame/flame:10/QQ2A.200405.005/6254899:user/release-keys");
         property_override("ro.product.board", "begonia");
         property_override("ro.product.device", "begonia");
         property_override("ro.product.model", "Redmi Note 8 Pro");
 }
 
 void load_begoniain() {
-        property_override("ro.build.fingerprint", "google/coral/coral:10/QQ2A.200405.005/6254899:user/release-keys");
+        property_override("ro.build.fingerprint", "google/flame/flame:10/QQ2A.200405.005/6254899:user/release-keys");
         property_override("ro.product.board", "begoniain");
         property_override("ro.product.device", "begoniain");
         property_override("ro.product.model", "Redmi Note 8 Pro");
 }
 
 void load_begonia() {
-        property_override("ro.build.fingerprint", "google/coral/coral:10/QQ2A.200405.005/6254899:user/release-keys");
+        property_override("ro.build.fingerprint", "google/flame/flame:10/QQ2A.200405.005/6254899:user/release-keys");
         property_override("ro.product.board", "begonia");
         property_override("ro.product.device", "begonia");
         property_override("ro.product.model", "Redmi Note 8 Pro");
