@@ -99,7 +99,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # RIL
 PRODUCT_PRODUCT_PROPERTIES += \
-    vendor.rild.libpath=mtk-ril.so \
+    vendor.rild.libpath=/vendor/lib64/libmtk-ril.so \
     vendor.rild.libargs=-d /dev/ttyC0 \
     persist.radio.sar_sar_sensor=true
 
