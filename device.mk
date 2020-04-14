@@ -15,7 +15,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 include vendor/mediatek/hardware/telephony-ext/overlay.mk
 
 # Properties
--include $(DEVICE_PATH)/system_prop.mk
+-include $(DEVICE_PATH)/product.prop
 
 # Permissions
 PRODUCT_COPY_FILES += \
