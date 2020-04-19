@@ -21,6 +21,10 @@ include vendor/mediatek/hardware/telephony-ext/overlay.mk
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/handheld_core_hardware.xml
 
+# APNS Config
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
+
 # AOT Preload
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
